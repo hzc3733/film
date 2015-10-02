@@ -5,4 +5,11 @@
  * Date: 2015/9/29
  * Time: 20:53
  */
-echo "Hello Film new index";
+include "./libs/db/Mysqli.php";
+
+$db = new Mage_DB_Mysqli();
+$db->connect("localhost", "root", "", "test");
+$db->query("");
+
+?>
+<pre
